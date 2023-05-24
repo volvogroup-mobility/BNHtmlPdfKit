@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.source_files = 'BNHtmlPdfKit.{h,m}'
   s.requires_arc = true
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.ios.deployment_target = '12.0'
 end
